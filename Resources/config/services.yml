@@ -1,0 +1,4 @@
+services:
+#    steve_cohene_z_publish_helpers.example:
+#        class: SteveCohen\eZPublishHelpersBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

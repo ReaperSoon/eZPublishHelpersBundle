@@ -1,0 +1,3 @@
+steve_cohene_z_publish_helpers_homepage:
+    path:     /
+    defaults: { _controller: SteveCoheneZPublishHelpersBundle:Default:index }

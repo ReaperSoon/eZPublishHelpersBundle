@@ -1,0 +1,23 @@
+{
+  "name" : "stevecohen/ezpublishhelpersbundle",
+  "description" : "Bundle to add some helpers to ezpublish projects",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Steve Cohen",
+    "email" : "cohensteve@hotmail.fr"
+  }],
+  "keywords" : [
+    "ezpublish ezplatform helpers services"
+  ],
+  "require" : {
+    "php" : ">=5.5.0",
+    "symfony/framework-bundle" : ">=2.5.6",
+    "twig/twig" : "*"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "SteveCohen\\eZPublishHelpersBundle" : ""
+    }
+  },
+  "target-dir" : "SteveCohen/eZPublishHelpersBundle",
+}

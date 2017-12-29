@@ -1,9 +1,9 @@
 <?php
 
-namespace SteveCohen\eZPublishHelpersBundle;
+namespace SteveCohen\EzPublishHelpersBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SteveCoheneZPublishHelpersBundle extends Bundle
+class SteveCohenEzPublishHelpersBundle extends Bundle
 {
 }

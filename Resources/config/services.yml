@@ -1,4 +1,10 @@
 services:
-#    steve_cohene_z_publish_helpers.example:
-#        class: SteveCohen\eZPublishHelpersBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    sc_ezpublish_helpers.generic_find:
+        class: SteveCohen\EzPublishHelpersBundle\Helper\GenericFindHelper
+        arguments: ["@ezpublish.api.repository", "@ezpublish.config.resolver.core"]
+    sc_ezpublish_helpers.converter:
+            class: SteveCohen\EzPublishHelpersBundle\Helper\ConvertHelper
+            arguments: ["@ezpublish.api.repository", "@sc_ezpublish_helpers.content"]
+    sc_ezpublish_helpers.content:
+        class: SteveCohen\EzPublishHelpersBundle\Helper\ContentHelper
+        arguments: ["@ezpublish.api.repository"]

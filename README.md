@@ -1,2 +1,2 @@
-# eZPublishHelpersBundle
-eZPublish helpers bundle for symfony
+# EzPublishHelpersBundle
+EzPublish helpers bundle for symfony

@@ -16,8 +16,8 @@
   },
   "autoload" : {
     "psr-0" : {
-      "SteveCohen\\eZPublishHelpersBundle" : ""
+      "SteveCohen\\EzPublishHelpersBundle" : ""
     }
   },
-  "target-dir" : "SteveCohen/eZPublishHelpersBundle"
+  "target-dir" : "SteveCohen/EzPublishHelpersBundle"
 }
